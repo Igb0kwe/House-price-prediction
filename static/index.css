@@ -1,0 +1,65 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(107, 107, 107);
+}
+
+h1 {
+    padding-top: 15%;
+    color: white;
+    text-align: center;
+}
+
+input::-webkit-input-placeholder {
+    text-align: center;
+}
+
+form {
+    margin: 10%;
+    text-align: center;
+    justify-content: center; 
+}
+
+button{
+    height: 30px;
+}
+
+button:hover {
+    cursor: pointer;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+area {
+    height: 50px;
+}
+
+.container {
+    align-self: center; 
+    background-color: black;
+    justify-content: center; 
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.288);
+    width: 300px;
+    height: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.repo{
+    color: #ffffff;
+}
