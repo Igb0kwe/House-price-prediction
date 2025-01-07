@@ -5,13 +5,15 @@ A linear regression model that prdecits house prices based on their area in squa
 
   => Programming language used - Python  
   
-  => Libraries used - Pandas  
+  => Libraries used;  
+  
   
                     - NumPy  
                     
                     - Matplotlip  
                     
                     - joblib  
+                    - Pandas  
                     
                     - sckit-learn 
                      
