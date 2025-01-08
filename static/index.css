@@ -5,7 +5,6 @@ body {
 }
 
 h1 {
-    padding-top: 15%;
     color: white;
     text-align: center;
 }
@@ -62,5 +61,9 @@ p {
 }
 
 .repo{
+    color: #ffffff;
+}
+
+label {
     color: #ffffff;
 }

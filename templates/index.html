@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>    
+<head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Price Prediction</title>
-    <link rel="stylesheet" href="static/index.css">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="static/output.css">
 </head>
 <body>
+    
     <div class="container">
-        <form action="/predict" method="post">
-         <h1>Home Price Predictor</h1>
-         <input type="text" id="area" name="area" required placeholder="Enter Area (in sq ft)">
-         <br>
-         <br>
-         <button type="submit">Predict Price</button>
-         <br>
-         <a href="https://github.com/Igb0kwe/House-price-prediction" class="Repo"><p>Github Repo</p></a>
-        </form>
+        <h1>Prediction Result</h1>
+        <p><strong>Desired State:</strong> {{ location_input }} </p>
+        <p><strong>Area:</strong> {{ area }} sq ft</p>
+        <p><strong> Predicted Price:</strong> {{ predicted_price }} NGN</p>      
+        <button><a href="/">Predict Again</a></button>
+        <br>
+        <a href="https://github.com/Igb0kwe/House-price-prediction" class="Repo"><p>Github Repo</p></a>
     </div>
+
 </body>
 </html>
