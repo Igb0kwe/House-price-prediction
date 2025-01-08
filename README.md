@@ -17,4 +17,6 @@ A linear regression model that prdecits house prices based on their area in squa
   => API - Flask  
   
   => Deployed using Render  
+
+    (Please note: The values utilized for training this model are not reflective of real-world data and have been generated solely for the purpose of this project.)
   
