@@ -1,5 +1,5 @@
 # Land price prediction model
-https://house-price-prediction-linear-regression.onrender.com  
+https://land-price-prediction-model.onrender.com  
 
 A linear regression model that prdecits house prices based on their area in square feet using.  
 
